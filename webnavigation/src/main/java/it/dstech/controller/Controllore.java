@@ -36,7 +36,11 @@ public class Controllore {
 			mod.addObject("ris", s.molt(numero1, numero2));
 		}
 		if(operazione.equals("div")) {
+			if(s.check(numero2)) {
 			mod.addObject("ris", s.div(numero1, numero2));
+		}else {
+			mod.addObject("ris", "non puoi dividere per 0");
+		}
 		}
 		if(operazione.equals("sott")) {
 			mod.addObject("ris", s.sott(numero1, numero2));
