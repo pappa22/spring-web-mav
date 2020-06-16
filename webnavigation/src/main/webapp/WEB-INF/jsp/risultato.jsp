@@ -8,6 +8,7 @@
 </head>
 <body>
 Il risultato dell'operazione è: <b>${ris}</b>
+<br><b>${mess}</b>
 
 </body>
 </html>
