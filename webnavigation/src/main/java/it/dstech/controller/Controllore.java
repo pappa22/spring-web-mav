@@ -39,7 +39,7 @@ public class Controllore {
 			if(s.check(numero2)) {
 			mod.addObject("ris", s.div(numero1, numero2));
 		}else {
-			mod.addObject("mess", "non puoi dividere per 0, Capra!");
+			mod.addObject("mess", "che non puoi dividere per 0, Capra!");
 		}
 		}
 		if(operazione.equals("sott")) {
